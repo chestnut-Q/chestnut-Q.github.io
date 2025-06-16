@@ -146,12 +146,12 @@ function Page() {
             }}
           >
             <img
-              src={require("../../Assets/Profile__.png")}
+              src={require("../../Assets/Profile__.jpg")}
               width="75%"
               className="img-fluid"
             />
           </Tilt>
-          <i style={{ fontSize: "0.75em", color: "lightgray" }}></i>
+          <i style={{ fontSize: "0.75em", color: "lightgray" }}>Caltech, CA, USA</i>
           <Row style={{ marginBottom: "0.5em", marginTop: "0.5em" }}></Row>
           <p
             style={{
