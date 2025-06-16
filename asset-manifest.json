@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "/static/js/main.js",
+    "main.css": "/static/css/main.3d2a6b6c.css",
+    "static/js/787.chunk.js": "/static/js/787.chunk.js",
+    "static/media/Curriculum_Vitae_zh.pdf": "/static/media/Curriculum_Vitae_zh.pdf",
+    "static/media/LinBiolinum_RBO.otf": "/static/media/LinBiolinum_RBO.otf",
+    "static/media/LinBiolinum_RI.otf": "/static/media/LinBiolinum_RI.otf",
+    "static/media/LinBiolinum_RB.otf": "/static/media/LinBiolinum_RB.otf",
+    "static/media/LinBiolinum_R.otf": "/static/media/LinBiolinum_R.otf",
+    "static/media/OpenSans-Italic.ttf": "/static/media/OpenSans-Italic.ttf",
+    "static/media/OpenSans-BoldItalic.ttf": "/static/media/OpenSans-BoldItalic.ttf",
+    "static/media/OpenSans-Bold.ttf": "/static/media/OpenSans-Bold.ttf",
+    "static/media/OpenSans-Regular.ttf": "/static/media/OpenSans-Regular.ttf",
+    "static/media/Profile__.png": "/static/media/Profile__.png",
+    "index.html": "/index.html",
+    "main.js.map": "/static/js/main.js.map",
+    "main.3d2a6b6c.css.map": "/static/css/main.3d2a6b6c.css.map",
+    "787.chunk.js.map": "/static/js/787.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.js",
+    "static/css/main.3d2a6b6c.css"
+  ]
+}
