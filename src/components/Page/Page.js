@@ -161,7 +161,7 @@ function Page() {
           >
             [
             <a
-              href={require("../../Assets/Resume/Curriculum_Vitae_zh.pdf")}
+              href={require("../../Assets/Resume/Curriculum_Vitae_en.pdf")}
               target="_blank"
             >
               Curriculum Vitae
