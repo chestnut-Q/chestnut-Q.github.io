@@ -182,6 +182,27 @@ function Page() {
           </p>
         </Col>
       </Row>
+      
+      {/* ICP备案号 */}
+      <Row style={{ width: "100%", marginTop: "2em", textAlign: "center" }}>
+        <Col>
+          <a 
+            href="https://beian.miit.gov.cn/" 
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: "#888888",
+              textDecoration: "none",
+              fontSize: "0.85em",
+              transition: "color 0.3s ease"
+            }}
+            onMouseOver={(e) => e.target.style.color = "#666666"}
+            onMouseOut={(e) => e.target.style.color = "#888888"}
+          >
+            京ICP备2024091566号-1
+          </a>
+        </Col>
+      </Row>
     </Container>
   );
 }
