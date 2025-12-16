@@ -46,7 +46,7 @@ function Page() {
             About
           </p>
           <p style={{ marginBottom: "0.5em", marginTop: "0.5em" }}>
-            Hi! I'm Ruoyu Qin (秦若愚). I am a first-year Ph.D. student in Department of Computer Science and Technology at Tsinghua University, working in the{" "}
+            Hi! I'm Ruoyu Qin (秦若愚). I am a second-year Ph.D. student in Department of Computer Science and Technology at Tsinghua University, working in the{" "}
             <a href="https://madsys.cs.tsinghua.edu.cn" target="_blank">
               MADSys Lab
             </a>{" "}
