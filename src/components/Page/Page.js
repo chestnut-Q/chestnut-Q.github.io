@@ -47,10 +47,10 @@ function Page() {
           </p>
           <p style={{ marginBottom: "0.5em", marginTop: "0.5em" }}>
             Hi! I'm Ruoyu Qin (秦若愚). I am a first-year Ph.D. student in Department of Computer Science and Technology at Tsinghua University, working in the{" "}
-            <a href="https://madsys.cs.tsinghua.edu.cn">
+            <a href="https://madsys.cs.tsinghua.edu.cn" target="_blank">
               MADSys Lab
             </a>{" "}
-            under the supervision of Prof. <a href={"https://madsys.cs.tsinghua.edu.cn/author/mingxing-zhang/"}>Mingxing Zhang</a>. Prior to that, I received my Bachelor's degree in Computer Science and Technology, also from Tsinghua University.
+            under the supervision of Prof. <a href={"https://madsys.cs.tsinghua.edu.cn/author/mingxing-zhang"} target="_blank">Mingxing Zhang</a>. Prior to that, I received my Bachelor's degree in Computer Science and Technology, also from Tsinghua University.
           </p>
           <p style={{ marginBottom: "0.5em", marginTop: "0.5em" }}>
             My research centers on efficient machine learning systems, with an emphasis on large-scale, distributed large language model (LLM) deployments. I’m driven by real-world industrial needs: I seek out practical challenges in areas like LLM serving and RL rollout, develop solutions, and push them all the way into production.
@@ -68,16 +68,16 @@ function Page() {
           <div style={{ marginBottom: "0.5em", marginTop: "0.5em" }}>
             <ul>
               <li>
-                (Sept 2025) I gave an online tutorial titled "Code Walkthrough: Mooncake Backend Integration in LMCache" at SIGCOMM 2025, as part of the tutorial <em>Networking for Stateful LLM Inference</em>. [<a href="https://conferences.sigcomm.org/sigcomm/2025/tutorials-hackathons/tutorial-nllm">Website</a>] [<a href="https://www.youtube.com/watch?v=nem6UXZIILg">Vedio</a>] [<a href={require("../../Assets/Files/sildes-sigcomm-workshop-202509.pdf")}>Slides</a>]
+                (Sept 2025) I gave an online tutorial titled "Code Walkthrough: Mooncake Backend Integration in LMCache" at SIGCOMM 2025, as part of the tutorial <em>Networking for Stateful LLM Inference</em>. [<a href="https://conferences.sigcomm.org/sigcomm/2025/tutorials-hackathons/tutorial-nllm" target="_blank">Website</a>] [<a href="https://www.youtube.com/watch?v=nem6UXZIILg" target="_blank">Vedio</a>] [<a href={require("../../Assets/Files/sildes-sigcomm-workshop-202509.pdf")} target="_blank">Slides</a>]
               </li>
               <li>
-                (Aug 2025) I gave an oral presentation on the Mooncake paper at CCF ChinaStorage 2025, held in Wuhan, Hubei, China. [<a href="https://ccf.org.cn/chinastorage2025">Website</a>] [<a href={require("../../Assets/Files/slides-ccfstorage-202508.pdf")}>Slides</a>]
+                (Aug 2025) I gave an oral presentation on the Mooncake paper at CCF ChinaStorage 2025, held in Wuhan, Hubei, China. [<a href="https://ccf.org.cn/chinastorage2025" target="_blank">Website</a>] [<a href={require("../../Assets/Files/slides-ccfstorage-202508.pdf")} target="_blank">Slides</a>]
               </li>
               <li>
-                (May 2025) I gave an oral presentation on the Mooncake paper at the 28<sup>th</sup> ChinaSys Workshop, held in Chongqing, China. [<a href={require("../../Assets/Files/sildes-chinasys-202505.pdf")}>Slides</a>]
+                (May 2025) I gave an oral presentation on the Mooncake paper at the 28<sup>th</sup> ChinaSys Workshop, held in Chongqing, China. [<a href={require("../../Assets/Files/sildes-chinasys-202505.pdf")} target="_blank">Slides</a>]
               </li>
               <li>
-                (February 2025) I gave an oral presentation at FAST 2025 in Santa Clara, CA, USA. [<a href="https://www.usenix.org/conference/fast25">Website</a>] [<a href="https://www.usenix.org/system/files/fast25_slides-qin.pdf">Slides</a>]
+                (February 2025) I gave an oral presentation at FAST 2025 in Santa Clara, CA, USA. [<a href="https://www.usenix.org/conference/fast25" target="_blank">Website</a>] [<a href="https://www.usenix.org/system/files/fast25_slides-qin.pdf" target="_blank">Slides</a>]
               </li>
             </ul>
           </div>
@@ -106,11 +106,11 @@ function Page() {
                 USENIX Conference on File and Storage Technologies (FAST), Santa Clara, CA, USA, 2025.
                 </i>
                 <br /> [
-                <a href="https://www.usenix.org/system/files/fast25-qin.pdf">Paper</a>] [
-                  <a href="https://github.com/kvcache-ai/Mooncake">Github</a>] [
-                    <a href="https://www.usenix.org/system/files/fast25_slides-qin.pdf">Slides</a>] [
-                      <a href="https://www.youtube.com/watch?v=-Lpx9QuCEsw">Video</a>] [
-                      <a href="https://github.com/kvcache-ai/Mooncake/tree/main/FAST25-release/traces">Traces</a>]
+                <a href="https://www.usenix.org/system/files/fast25-qin.pdf" target="_blank">Paper</a>] [
+                  <a href="https://github.com/kvcache-ai/Mooncake" target="_blank">Github</a>] [
+                    <a href="https://www.usenix.org/system/files/fast25_slides-qin.pdf" target="_blank">Slides</a>] [
+                      <a href="https://www.youtube.com/watch?v=-Lpx9QuCEsw" target="_blank">Video</a>] [
+                      <a href="https://github.com/kvcache-ai/Mooncake/tree/main/FAST25-release/traces" target="_blank">Traces</a>]
               </div>
             </li>
             <li>
@@ -125,8 +125,8 @@ function Page() {
                 ACM Transactions on Storage, 2025.
                 </i>
                 <br /> [
-                <a href="https://dl.acm.org/doi/pdf/10.1145/3773772">Paper</a>] [
-                  <a href="https://github.com/kvcache-ai/Mooncake">Code</a>]
+                <a href="https://dl.acm.org/doi/pdf/10.1145/3773772" target="_blank">Paper</a>] [
+                  <a href="https://github.com/kvcache-ai/Mooncake" target="_blank">Code</a>]
               </div>
             </li>
             <li>
@@ -141,7 +141,7 @@ function Page() {
                 arXiv preprint, arXiv:2511.14617, 2025.
                 </i>
                 <br /> [
-                <a href="https://arxiv.org/pdf/2511.14617">Paper</a>]
+                <a href="https://arxiv.org/pdf/2511.14617" target="_blank">Paper</a>]
               </div>
             </li>
             <li>
@@ -155,8 +155,8 @@ function Page() {
                 Frontier AI Systems Workshop (FAISys), Hong Kong, China, 2025.
                 </i>
                 <br /> [
-                <a href="https://www.dropbox.com/scl/fo/oylca94tenkqrp3jb0syw/AGMkRE0OpPyCOsJGK6o-MsM?e=2&preview=faisys25-final11.pdf&rlkey=0wage9ssu9mxelrmly2k2uefl&dl=0">Paper</a>] [
-                  <a href="https://github.com/kvcache-ai/Mooncake">Code</a>]
+                <a href="https://www.dropbox.com/scl/fo/oylca94tenkqrp3jb0syw/AGMkRE0OpPyCOsJGK6o-MsM?e=2&preview=faisys25-final11.pdf&rlkey=0wage9ssu9mxelrmly2k2uefl&dl=0" target="_blank">Paper</a>] [
+                  <a href="https://github.com/kvcache-ai/Mooncake" target="_blank">Code</a>]
               </div>
             </li>
           </ul>
@@ -207,22 +207,10 @@ function Page() {
               marginTop: "0.5em",
             }}
           >
-            [
-            <a
-              href={require("../../Assets/Resume/Curriculum_Vitae_en.pdf")}
-              target="_blank"
-            >
-              Curriculum Vitae
-            </a>
-            ] [<a href={"https://github.com/chestnut-Q"}>Github</a>] [
-            <a href="https://scholar.google.com/citations?user=mwBB0U4AAAAJ&hl=en">
-              Google Scholar
-            </a>
-            ] [
-            <a href="https://www.zhihu.com/people/tang-chao-li-zi-71-61">
-              Zhihu
-            </a>
-            ]
+            [<a href={require("../../Assets/Resume/cv-qinruoyu.pdf")} target="_blank">Curriculum Vitae</a>] [
+             <a href={"https://github.com/chestnut-Q"} target="_blank">Github</a>] [
+             <a href="https://scholar.google.com/citations?user=mwBB0U4AAAAJ&hl=en" target="_blank">Google Scholar</a>] [
+             <a href="https://www.zhihu.com/people/tang-chao-li-zi-71-61" target="_blank">Zhihu</a>]
           </p>
           <p
             style={{
