@@ -68,10 +68,16 @@ function Page() {
           <div style={{ marginBottom: "0.5em", marginTop: "0.5em" }}>
             <ul>
               <li>
-                (May 2025) I will be giving an oral presentation at the 28<sup>th</sup> Chinasys in Chongqing, China. [<a href="https://cnsys2025.cn">Website</a>]
+                (Sept 2025) I gave an online tutorial titled "Code Walkthrough: Mooncake Backend Integration in LMCache" at SIGCOMM 2025, as part of the tutorial <em>Networking for Stateful LLM Inference</em>. [<a href="https://conferences.sigcomm.org/sigcomm/2025/tutorials-hackathons/tutorial-nllm">Website</a>] [<a href="https://www.youtube.com/watch?v=nem6UXZIILg">Vedio</a>] [<a href={require("../../Assets/Files/sildes-sigcomm-workshop-202509.pdf")}>Slides</a>]
               </li>
               <li>
-                (February 2025) I will be giving an oral presentation at FAST&nbsp;2025 in Santa Clara, USA. [<a href="https://www.usenix.org/conference/fast25">Website</a>]
+                (Aug 2025) I gave an oral presentation on the Mooncake paper at CCF ChinaStorage 2025, held in Wuhan, Hubei, China. [<a href="https://ccf.org.cn/chinastorage2025">Website</a>] [<a href={require("../../Assets/Files/slides-ccfstorage-202508.pdf")}>Slides</a>]
+              </li>
+              <li>
+                (May 2025) I gave an oral presentation on the Mooncake paper at the 28<sup>th</sup> ChinaSys Workshop, held in Chongqing, China. [<a href={require("../../Assets/Files/sildes-chinasys-202505.pdf")}>Slides</a>]
+              </li>
+              <li>
+                (February 2025) I gave an oral presentation at FAST 2025 in Santa Clara, CA, USA. [<a href="https://www.usenix.org/conference/fast25">Website</a>] [<a href="https://www.usenix.org/system/files/fast25_slides-qin.pdf">Slides</a>]
               </li>
             </ul>
           </div>
@@ -91,17 +97,13 @@ function Page() {
                 <b>Mooncake: Trading More Storage for Less Computation — A KVCache-centric Architecture for Serving LLM Chatbot</b>
                 {" "}
                 <br />
-                <u>
-                  <b>Ruoyu Qin*</b>
-                </u>
+                <b>Ruoyu Qin*</b>
                 , Zheming Li*, Weiran He, Jialei Cui, Feng Ren, Mingxing Zhang, Yongwei Wu, Weimin Zheng, Xinran Xu.
-                (* indicates co-first author)
                 <br />
                 <b>Erik Riedel Best Paper Award!</b>
                 <br />
-                <b>FAST 2025</b> –{" "}
                 <i>
-                The 23rd USENIX Conference on File and Storage Technologies.
+                USENIX Conference on File and Storage Technologies (FAST), Santa Clara, CA, USA, 2025.
                 </i>
                 <br /> [
                 <a href="https://www.usenix.org/system/files/fast25-qin.pdf">Paper</a>] [
@@ -109,6 +111,52 @@ function Page() {
                     <a href="https://www.usenix.org/system/files/fast25_slides-qin.pdf">Slides</a>] [
                       <a href="https://www.youtube.com/watch?v=-Lpx9QuCEsw">Video</a>] [
                       <a href="https://github.com/kvcache-ai/Mooncake/tree/main/FAST25-release/traces">Traces</a>]
+              </div>
+            </li>
+            <li>
+              <div style={{ marginBottom: "0.5em", marginTop: "0.5em" }}>
+                <b>Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving</b>
+                {" "}
+                <br />
+                <b>Ruoyu Qin*</b>
+                , Zheming Li*, Weiran He, Jialei Cui, Heyi Tang, Feng Ren, Teng Ma, Shangming Cai, Yineng Zhang, Mingxing Zhang, Yongwei Wu, Weimin Zheng, Xinran Xu.
+                <br />
+                <i>
+                ACM Transactions on Storage, 2025.
+                </i>
+                <br /> [
+                <a href="https://dl.acm.org/doi/pdf/10.1145/3773772">Paper</a>] [
+                  <a href="https://github.com/kvcache-ai/Mooncake">Code</a>]
+              </div>
+            </li>
+            <li>
+              <div style={{ marginBottom: "0.5em", marginTop: "0.5em" }}>
+                <b>Seer: Online Context Learning for Fast Synchronous LLM Reinforcement Learning</b>
+                {" "}
+                <br />
+                <b>Ruoyu Qin</b>
+                , Weiran He, Weixiao Huang, Yangkun Zhang, Yikai Zhao, Bo Pang, Xinran Xu, Yingdi Shan, Yongwei Wu, Mingxing Zhang.
+                <br />
+                <i>
+                arXiv preprint, arXiv:2511.14617, 2025.
+                </i>
+                <br /> [
+                <a href="https://arxiv.org/pdf/2511.14617">Paper</a>]
+              </div>
+            </li>
+            <li>
+              <div style={{ marginBottom: "0.5em", marginTop: "0.5em" }}>
+                <b>TENT: A Declarative Slice Spraying Engine for Performant and Resilient Data Movement in Disaggregated LLM Serving</b>
+                {" "}
+                <br />
+                Feng Ren, <b>Ruoyu Qin</b>, Teng Ma, Shangming Cai, Zheng Liu, Chao Lei, Dejiang Zhu, Ke Yang, Jinyang Su, Weixiao Huang, Yikai Zhao, Yongwei Wu, Weimin Zheng, Mingxing Zhang.
+                <br />
+                <i>
+                Frontier AI Systems Workshop (FAISys), Hong Kong, China, 2025.
+                </i>
+                <br /> [
+                <a href="https://www.dropbox.com/scl/fo/oylca94tenkqrp3jb0syw/AGMkRE0OpPyCOsJGK6o-MsM?e=2&preview=faisys25-final11.pdf&rlkey=0wage9ssu9mxelrmly2k2uefl&dl=0">Paper</a>] [
+                  <a href="https://github.com/kvcache-ai/Mooncake">Code</a>]
               </div>
             </li>
           </ul>
@@ -169,6 +217,10 @@ function Page() {
             ] [<a href={"https://github.com/chestnut-Q"}>Github</a>] [
             <a href="https://scholar.google.com/citations?user=mwBB0U4AAAAJ&hl=en">
               Google Scholar
+            </a>
+            ] [
+            <a href="https://www.zhihu.com/people/tang-chao-li-zi-71-61">
+              Zhihu
             </a>
             ]
           </p>
