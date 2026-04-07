@@ -138,7 +138,7 @@ function Page() {
                 , Weiran He, Weixiao Huang, Yangkun Zhang, Yikai Zhao, Bo Pang, Xinran Xu, Yingdi Shan, Yongwei Wu, Mingxing Zhang.
                 <br />
                 <i>
-                arXiv preprint, arXiv:2511.14617, 2025.
+                Accepted to appear in the 20th USENIX Symposium on Operating Systems Design and Implementation (OSDI '26).
                 </i>
                 <br /> [
                 <a href="https://arxiv.org/pdf/2511.14617" target="_blank">Paper</a>]
