@@ -138,10 +138,25 @@ function Page() {
                 , Weiran He, Weixiao Huang, Yangkun Zhang, Yikai Zhao, Bo Pang, Xinran Xu, Yingdi Shan, Yongwei Wu, Mingxing Zhang.
                 <br />
                 <i>
-                Accepted to appear in the 20th USENIX Symposium on Operating Systems Design and Implementation (OSDI '26).
+                USENIX Symposium on Operating Systems Design and Implementation (OSDI), Seattle, WA, USA, 2026.
                 </i>
                 <br /> [
                 <a href="https://arxiv.org/pdf/2511.14617" target="_blank">Paper</a>]
+              </div>
+            </li>
+            <li>
+              <div style={{ marginBottom: "0.5em", marginTop: "0.5em" }}>
+                <b>Prefill-as-a-Service: KVCache of Next-Generation Models Could Go Cross-Datacenter</b>
+                {" "}
+                <br />
+                <b>Ruoyu Qin</b>
+                , Weiran He, Yaoyu Wang, Zheming Li, Xinran Xu, Yongwei Wu, Weimin Zheng, Mingxing Zhang.
+                <br />
+                <i>
+                arXiv:2604.15039.
+                </i>
+                <br /> [
+                <a href="https://arxiv.org/abs/2604.15039" target="_blank">Paper</a>]
               </div>
             </li>
             <li>
@@ -181,6 +196,28 @@ function Page() {
               <div style={{ marginBottom: "0.5em", marginTop: "0.5em" }}>
                 <b>THUMT</b>, Sep. 2022 – Jun. 2023
                 <br /> Research Assistant
+              </div>
+            </li>
+          </ul>
+          <div style={{ marginBottom: "0.5em", marginTop: "0.5em" }}></div>
+          <p
+            style={{
+              fontSize: "1.5em",
+              marginBottom: "0.5em",
+              marginTop: "0.5em",
+            }}
+          >
+            Services
+          </p>
+          <ul>
+            <li>
+              <div style={{ marginBottom: "0.5em", marginTop: "0.5em" }}>
+                <b>Artifact Evaluation Committee</b>, USENIX OSDI '26, 2026
+              </div>
+            </li>
+            <li>
+              <div style={{ marginBottom: "0.5em", marginTop: "0.5em" }}>
+                <b>Teaching Assistant</b>, Algorithms and Its Complexity Theory, Tsinghua University, Spring 2026
               </div>
             </li>
           </ul>
